@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/batsanovajs/static/css/main.21506b93.css",
+    "main.js": "/batsanovajs/static/js/main.91b30a38.js",
+    "static/media/oduvanchik2.jpg": "/batsanovajs/static/media/oduvanchik2.a4c2559a02cbc830032c.jpg",
+    "index.html": "/batsanovajs/index.html",
+    "main.21506b93.css.map": "/batsanovajs/static/css/main.21506b93.css.map",
+    "main.91b30a38.js.map": "/batsanovajs/static/js/main.91b30a38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21506b93.css",
+    "static/js/main.91b30a38.js"
+  ]
+}
