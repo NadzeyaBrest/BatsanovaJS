@@ -1,0 +1,66 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: url("../public/oduvanchik2.jpg") center center no-repeat fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap {
+    width: 800px;
+    background: #bbb;
+    opacity: 1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.item {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #bbb;
+    width: 70%;
+
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #bbb
+}
+
+.item p {
+    width: 33%;
+}
+
+.item form {
+    width: 40%;
+}
+.result{
+    font-weight: 700;
+}
+
+@media screen and (max-width:800px) {
+    .wrap {
+        width: auto;
+    }
+
+    .item {
+        flex-direction: column;
+    }
+    .item p,
+     .item form{
+        width: 80%
+    }
+    
+   
+}
